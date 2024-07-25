@@ -1,0 +1,346 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+}
+a:hover {
+  text-decoration: none;
+  color: #3b1e0d;
+}
+body {
+  background-color: #997968;
+}
+
+.parentsection {
+  background-color: #997968;
+  width: 100%;
+  height: 750px;
+  padding-top: 40px;
+}
+
+.topdivpicture {
+  /* background-color: none; */
+  background-image: url("../image/3XUJ6DuiBp1IDiEDRkCXKOxHA.avif");
+  float: left;
+  width: 620px;
+  height: 690px;
+  margin: 20px 0 0 30px;
+  background-color: #ccc2bd;
+  position: relative;
+  left: 30px;
+  border-radius: 6%;
+}
+.topdivtext {
+  /* background-color: black; */
+  font-size: xx-large;
+  float: right;
+  width: 560px;
+  height: 500px;
+  background-color: #cc5827;
+  margin: 30px 60px 0 0;
+  position: relative;
+  top: 90px;
+  right: 80px;
+  border-radius: 6%;
+  padding: 8px;
+}
+.topdivtext h1 {
+  font-weight: bolder;
+  padding: 10px;
+  width: fit-content;
+}
+.topdivtext h6 {
+  padding: 20px 0 0 10px;
+  width: fit-content;
+}
+.topdivtext p {
+  width: fit-content;
+  font-size: medium;
+  margin: 30px 0 0 10px;
+  padding: 7px 5px 0 5px;
+  letter-spacing: 1px;
+  font-family: Montserrat;
+}
+
+.btn {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  /* position: relative; */
+  margin: 20px auto auto 10px;
+}
+.topdivtext a {
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+.btn:hover {
+  background: #3b1e0d;
+  color: white;
+}
+
+header {
+  margin: 0;
+  display: inline-block;
+  background-color: #856452;
+  width: 100%;
+  height: 80px;
+}
+header h1 {
+  width: fit-content;
+  margin-left: 10px;
+}
+.headerlink {
+  float: right;
+  position: relative;
+  bottom: 50px;
+  right: 20px;
+}
+header a {
+  color: #ffffff;
+  margin: 0 5px 0 5px;
+}
+
+header span {
+  color: #ff4d00;
+}
+.bottom {
+  background-color: #d7cdc8;
+  width: 1263px;
+  height: 80px;
+}
+
+.footer-distributed {
+  background-color: #856452;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Open Sans", cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: #ff4d00;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+.footer-links:hover {
+  text-decoration: none;
+  color: #3b1e0d;
+}
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #997968;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-center p a:hover {
+  color: #3b1e0d;
+}
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+.contactdetail {
+  width: 100%;
+  height: 180px;
+  background-color: #997968;
+  padding: 30px 30px 30px 50px;
+  display: inline-block;
+}
+
+.CallUs {
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(240, 115, 60);
+  float: left;
+  border-radius: 6%;
+  text-align: center;
+  padding: 20px;
+  margin: 0 50px;
+  position: relative;
+  bottom: 60px;
+}
+.CallUs h5 {
+  font-weight: bold;
+}
+.Location {
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(240, 115, 60);
+  float: left;
+  border-radius: 6%;
+  text-align: center;
+  padding: 20px;
+  margin: 0 50px;
+  position: relative;
+  bottom: 60px;
+}
+.Location h5 {
+  font-weight: bold;
+}
+.Hours {
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(240, 115, 60);
+  float: left;
+  border-radius: 6%;
+  text-align: center;
+  padding: 20px;
+  margin: 0 50px;
+  position: relative;
+  bottom: 60px;
+}
+.Hours h5 {
+  font-weight: bold;
+}
